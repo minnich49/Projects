@@ -1,5 +1,5 @@
 <!-- BubbleChart generated in R 3.2.2 by googleVis 0.5.10 package -->
-<!-- Thu Dec 31 16:15:42 2015 -->
+<!-- Thu Dec 31 16:35:25 2015 -->
 
 
 <!-- jsHeader -->
@@ -7,7 +7,7 @@
 
 
 // jsData 
-function gvisDataBubbleChartID5bee50906322 () {
+function gvisDataBubbleChartID5bee375c7680 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1339,10 +1339,10 @@ return(data);
 
 
 // jsDrawChart
-function drawChartBubbleChartID5bee50906322() {
-var data = gvisDataBubbleChartID5bee50906322();
+function drawChartBubbleChartID5bee375c7680() {
+var data = gvisDataBubbleChartID5bee375c7680();
 var options = {};
-options["colorAxis"] = {colors: ['yellow', 'blue']};
+options["colorAxis"] = {colors: ['yellow', 'orange']};
 options["vAxis"] = {title:'User Count'};
 options["hAxis"] = {title:'Countries'};
 options["width"] =   1000;
@@ -1353,7 +1353,7 @@ options["animation"] = {startup: true};
 
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID5bee50906322')
+    document.getElementById('BubbleChartID5bee375c7680')
     );
     chart.draw(data,options);
     
@@ -1378,9 +1378,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID5bee50906322);
+callbacks.push(drawChartBubbleChartID5bee375c7680);
 })();
-function displayChartBubbleChartID5bee50906322() {
+function displayChartBubbleChartID5bee375c7680() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1406,12 +1406,12 @@ callbacks.shift()();
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5bee50906322"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5bee375c7680"></script>
 
 
 <!-- divChart -->
   
-<div id="BubbleChartID5bee50906322" 
+<div id="BubbleChartID5bee375c7680" 
   style="width: 1000; height: 1000;">
 </div>
 
